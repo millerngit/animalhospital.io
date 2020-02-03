@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Schedule An Appointment</title>
+	<link href="main.css" rel="stylesheet">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+</head>
+
+
+<body>
+<title>Animal Hostipal</title>
+<img src="header image textdogcat.jpg" class="center-image">
+<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="Services.html">Services</a></li>
+			<li><a href="index.html">Resourses</a></li>
+			<li><a href="Services.html">Photos</a></li>
+			<li><a href="appointment.html">Make An Appointment</a></li>
+
+ 		</ul>
+ 		
+ 	</nav>
+
+
+<main>
+<br>
+<h2>Schedule An Appointment</h2>
+<br>
+<h3 style="text-align: center;">If your pet is sick please call us at <a id ="mobile" href ="tel:xxx-xxx-xxxx ">xxx-xxx-xxxx  </a>
+ <SPAN id = "desktop">xxx-xxx-xxxx</SPAN> instead, thank you !</h3>
+<br>
+<br>
+
+<div style="width: 70% margin-right: auto; margin-left: auto; border: 30px solid #663300; padding: 10px">
+
+<form action="results.html" method="get">
+
+	<div>
+		<fieldset>
+		<legend for="firstname">First Name: </legend>
+		<input id="firstname" name="firstname" placeholder="First Name"  required="" >
+		</fieldset>
+	</div>
+
+		<br>
+
+	<div>
+		<fieldset>
+			<legend for="lastname">Last Name: </legend>
+			<input id="lastname" name="lastname" placeholder="Last Name"  required="" >
+		</fieldset>
+	</div>
+
+		<br>
+
+	<fieldset>
+		<legend>Please enter Your Phone Number:</legend>
+		<input type="text" id="phone" name="phone" placeholder="ex: xxx-xxx-xxxx" 
+   	   pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required="">
+
+
+    </fieldset>
+
+		<br>
+<div>
+	<fieldset>
+		<legend for="Email">Please enter Your Email: </legend>
+		<input type="Email" id="Email" name="Email"  placeholder="ex: Email@Gmail.com" required="">
+	</fieldset>
+</div>
+
+
+
+
+		<br>
+
+
+
+
+
+	<fieldset>
+        <legend for="customer status">Are You A Returning Customer ?</legend>
+        <input type="radio" name="customer status" value="yes" id="yes" required="">
+        <label for="yes">Yes</label> <br>
+		<input type="radio" name="customer status" value="no" id="no" required="">
+		<label for="no">No</label>
+
+
+
+
+      
+       
+
+
+
+    </fieldset>
+      <br>
+
+
+    <fieldset>
+    <legend for="reason">Why Are Scheduling This Appointment?</legend>
+	<select name="reason">
+  <option value="checkup">Checkup</option>
+  <option value="shots">Shots</option>
+
+		</select>
+
+</fieldset>
+		<br>
+	
+
+
+	<div>
+<legend for="comments">Comments (optional)</legend>
+
+	
+
+		<textarea  name="comments" id="comments"  rows="5" cols="30"  >	
+        
+		</textarea>
+<br>
+	</div>
+
+
+  Please Select A Date:
+  <input type="date" name="appointment" required="">
+
+<div>
+  <button type="Submit" id="mysubmit">Submit</button>
+</div>
+
+</div>
+
+</form>
+
+
+<br>
+<br>
+</main>
+<footer>
+	<small><i>Copyright &copy; 2020 Animal Hostipal <br>
+
+	Noah Miller</i></small>
+	<div>
+		<h3>
+		This page was last modified on 
+		</h3>
+
+			<script type="text/javascript">
+			document.write(document.lastModified);
+
+			</script>
+		
+
+	</div>
+
+</footer>
+
+</body>
+
+</html>
